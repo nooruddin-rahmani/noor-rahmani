@@ -1,4 +1,5 @@
 import React from "react";
+import int from "../images/interior.png";
 
 import TelegramIcon from "@mui/icons-material/Telegram";
 function Tab() {
@@ -71,35 +72,35 @@ function Tab() {
               <div className="lg:col-span-2 lg:w-full">
                 <a href="#">
                   <img
-                    src="./assets/interior.png"
+                    src={int}
                     alt="interior"
-                    className="rounded-2xl"
+                    className="rounded-2xl object-cover"
                   />
                 </a>
               </div>
               <img
-                src="./assets/interior.png"
+                src="./assets/2.png"
                 alt="interior"
                 className="rounded-2xl"
               />
 
               <img
-                src="./assets/interior.png"
+                src="./assets/3.svg"
                 alt="interior"
                 className="rounded-2xl"
               />
               <img
-                src="./assets/interior.png"
+                src="./assets/4.svg"
                 alt="interior"
                 className="rounded-2xl lg:col-span-2 "
               />
               <img
-                src="./assets/interior.png"
+                src="./assets/5.png"
                 alt="interior"
                 className="rounded-2xl"
               />
               <img
-                src="./assets/interior.png"
+                src="./assets/6.png"
                 alt="interior"
                 className="rounded-2xl"
               />
