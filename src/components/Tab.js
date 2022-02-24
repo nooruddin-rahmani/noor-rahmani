@@ -70,7 +70,7 @@ function Tab() {
               id="projects"
             >
               <div className="lg:col-span-2 lg:w-full">
-                <a href="#">
+                <a href="/">
                   <img
                     src={int}
                     alt="interior"
