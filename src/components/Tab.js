@@ -1,5 +1,11 @@
 import React from "react";
-import int from "../images/interior.png";
+import img1 from "../images/interior.png";
+import img2 from "../images/2.png";
+import img3 from "../images/3.svg";
+import img4 from "../images/4.svg";
+import img5 from "../images/5.png";
+import img6 from "../images/6.png";
+import img7 from "../images/7.png";
 
 import TelegramIcon from "@mui/icons-material/Telegram";
 function Tab() {
@@ -72,38 +78,22 @@ function Tab() {
               <div className="lg:col-span-2 lg:w-full">
                 <a href="/">
                   <img
-                    src={int}
+                    src={img1}
                     alt="interior"
                     className="rounded-2xl object-cover"
                   />
                 </a>
               </div>
-              <img
-                src="./assets/2.png"
-                alt="interior"
-                className="rounded-2xl"
-              />
+              <img src={img2} alt="interior" className="rounded-2xl" />
 
+              <img src={img3} alt="interior" className="rounded-2xl" />
               <img
-                src="./assets/3.svg"
-                alt="interior"
-                className="rounded-2xl"
-              />
-              <img
-                src="./assets/4.svg"
+                src={img4}
                 alt="interior"
                 className="rounded-2xl lg:col-span-2 "
               />
-              <img
-                src="./assets/5.png"
-                alt="interior"
-                className="rounded-2xl"
-              />
-              <img
-                src="./assets/6.png"
-                alt="interior"
-                className="rounded-2xl"
-              />
+              <img src={img5} alt="interior" className="rounded-2xl" />
+              <img src={img6} alt="interior" className="rounded-2xl" />
             </div>
             <div
               className={
