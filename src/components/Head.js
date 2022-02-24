@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import DownloadIcon from "@mui/icons-material/Download";
-import EmailIcon from "@mui/icons-material/Email";
+
 function Head() {
   return (
     <div className="flex flex-col mt-28 items-center lg:flex-row lg:mx-10 lg:space-x-10 lg:justify-center">
