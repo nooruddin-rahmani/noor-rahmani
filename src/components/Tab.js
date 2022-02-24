@@ -5,7 +5,6 @@ import img3 from "../images/3.svg";
 import img4 from "../images/4.svg";
 import img5 from "../images/5.png";
 import img6 from "../images/6.png";
-import img7 from "../images/7.png";
 
 import TelegramIcon from "@mui/icons-material/Telegram";
 function Tab() {
